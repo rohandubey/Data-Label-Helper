@@ -60,6 +60,7 @@ $ tree --dirsfirst
 - **Down**, **up**, **left** and **right** are the co-ordinates of the **annotated area** of each image with its location and class name tagged with it.
 
 ```This is the usual annotation format of major object detection models. For example, PascalVOC, MS COCO, OID, KITTI, Retinanet, Imagenet, etc.```
+
 **This program is using argparse commands**
 ### Execution Command : 
 `python3 main.py --p=Image_directory/ --c=Class_name --d=CSV_file_path/file.csv`
