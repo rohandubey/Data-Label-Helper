@@ -21,7 +21,10 @@ def rect(a,b,location,mode):
         left,top = a,b
     if mode == 1:
         right,down = a,b
-        df = df.append({'_image_name' : location , 'top' : top,'left': left, 'right': right, 'down': down,'class_name':class_name} , ignore_index=True)
+        if cv2.waitKey(0) & 0xFF == ord('e'):
+            df = df.append({'_image_name' : location , 'top' : top,'left': left, 'right': right, 'down': down,'class_name':class_name} , ignore_index=True)
+        else :
+            pass
 
 def draw_reactangle_with_drag(event, x, y, flags, param):
     global ix, iy, drawing, img
@@ -47,10 +50,10 @@ def draw_reactangle_with_drag(event, x, y, flags, param):
 
 for filename in os.listdir(path):
     img = cv2.imread(path+filename)
-    cv2.namedWindow(winname= "Press Esc key to go to next Image")
-    cv2.setMouseCallback("Press Esc key to go to next Image", draw_reactangle_with_drag)
+    cv2.namedWindow(winname= "PRESS-->      Esc : next Image    e: confirm selection      r: redo selection")
+    cv2.setMouseCallback("PRESS-->      Esc : next Image    e: confirm selection      r: redo selection", draw_reactangle_with_drag)
     while True:
-        cv2.imshow("Press Esc key to go to next Image", img)
+        cv2.imshow("PRESS-->      Esc : next Image    e: confirm selection      r: redo selection", img)
         if cv2.waitKey(10) == 27:
             break
     cv2.destroyAllWindows()
