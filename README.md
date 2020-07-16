@@ -46,8 +46,10 @@ $ tree --dirsfirst
 - Execute **main.py** file using argparse commands :- ``python3 main.py --p=Image_directory/ --c=Class_name --d=CSV_file_path/file.csv``
 - This will open images one by one.
 - After that you have to select the portion of image by the *bounding box* through mouse click `e` to **confirm** selection.
+![alt text](https://github.com/rohandubey/Label-Data-Helper/blob/master/p1.png?raw=true)
 - To **redo** selection press `r` instead of `e` thus that selection won't be saved.
-- A single image can have multiple bounding boxes.
+- A single image can have multiple bounding boxes. Like one below!
+![alt text](https://github.com/rohandubey/Label-Data-Helper/blob/master/p2.png?raw=true)
 - Press `Escape Key` to go to the **next** Image.
 - You can **skip** an image by pressing the same `Escape key`.
 - At the end of all iteartions a **".csv"** file will be created containing the following classes = **_image_name, class_name, down, left, right, top.**
