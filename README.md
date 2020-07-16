@@ -43,13 +43,13 @@ $ tree --dirsfirst
 
 ├── main.py
 ```
-- Execute main.py file using argparse commands :- ``python3 main.py --p=Image_directory/ --c=Class_name --d=CSV_file_path/file.csv``
+- Execute **main.py** file using argparse commands :- ``python3 main.py --p=Image_directory/ --c=Class_name --d=CSV_file_path/file.csv``
 - This will open images one by one.
-- After that you have to select the portion of image by the *bounding box* through mouse click `e` to confirm selection.
-- To redo selection press `r` instead of `e` thus that selection won't be saved.
+- After that you have to select the portion of image by the *bounding box* through mouse click `e` to **confirm** selection.
+- To **redo** selection press `r` instead of `e` thus that selection won't be saved.
 - A single image can have multiple bounding boxes.
-- Press `Escape Key` to go to the next Image.
-- You can skip an image by pressing the same `Escape key`.
+- Press `Escape Key` to go to the **next** Image.
+- You can **skip** an image by pressing the same `Escape key`.
 - At the end of all iteartions a **".csv"** file will be created containing the following classes = **_image_name, class_name, down, left, right, top.**
 - **Down**, **up**, **left** and **right** are the co-ordinates of the **annotated area** of each image with its location and class name tagged with it.
 
