@@ -1,4 +1,4 @@
-# Label-Data-Helper [![](https://img.shields.io/github/license/sourcerer-io/hall-of-fame.svg)](https://github.com/rohandubey/Facial-Expression-Recognition/blob/master/LICENSE)
+# Label-Data-Helper [![](https://img.shields.io/github/license/sourcerer-io/hall-of-fame.svg)](https://github.com/rohandubey/Facial-Expression-Recognition/blob/master/LICENSE)![pypi](https://img.shields.io/pypi/v/pybadges.svg)![versions](https://img.shields.io/pypi/pyversions/pybadges.svg)[![PyPI status](https://img.shields.io/pypi/status/trains-jupyter-plugin.svg)](https://pypi.python.org/pypi/trains-jupyter-plugin/) 
 <br><br>
 A Program that creates a bounding box that enables you to construct a predictable pipeline of high-quality training data that will teach your ML/DL-powered computer vision system to find and identify objects in image and video data.<br><br>
 ## Prerequisites
