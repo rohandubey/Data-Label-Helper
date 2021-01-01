@@ -65,4 +65,4 @@ $ tree --dirsfirst
 ### Execution Command : 
 `python3 main.py --p=Image_directory/ --c=Class_name --d=CSV_file_path/file.csv`
 ## Authors
-Made with ❤️ Rohan Dubey - Complete work
+Made with ❤️ by Rohan Dubey - Complete work
